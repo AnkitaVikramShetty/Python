@@ -1,6 +1,6 @@
 # Python
 Getting started with python
-
+###### Search Methods
 This program implements three different search methods - Breadth first, depth first and iterative deepening.
 Input	file	is	of	the	format:<br />
 Arad,	Sibiu,	140 <br />
@@ -11,8 +11,6 @@ Sibiu,	Rimnicu	Vilcea,	80 <br />
 Sibiu,	Oradea,	151 <br />
 Zerind,	Oradea,	71 <br />
 Timisoara,	Lugoj,	111 <br />
-
-
  <br />
 The	program	allows	the	user	to	choose	from	4	options: <br />
 1. Search <br />
@@ -21,5 +19,11 @@ The	program	allows	the	user	to	choose	from	4	options: <br />
 4. Exit <br />
 Selecting	option	4	will	terminate	the	program. <br />
  <br />
-In order to run the program, specify the path of the input file to the open command:
+In order to run the program, specify the path of the input file to the open command:<br />
+input_file=open("YourPath/Input.txt","r").readlines()
+ <br />
+###### Rule Based Classifier
+Make use of any files of your choice to run the classifier.
+<br />
+In order to run the program, specify the path of the input file to the open command: <br />
 input_file=open("YourPath/Input.txt","r").readlines()
